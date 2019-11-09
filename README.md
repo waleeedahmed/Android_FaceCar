@@ -83,7 +83,7 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 
 <h1><strong>Acknowledgements</strong></h1>
 
-A huge thank you goes to <a href = "https://github.com/saudet">Samuel Audet</a> for creating OpenCv android libraries containing
+A huge thank you goes to <a href = "https://github.com/saudet">Samuel Audet</a> for creating OpenCV android libraries containing
 facial detection and recognition algorithms that we were able to tweak and use in our android appliction. 
 
 
