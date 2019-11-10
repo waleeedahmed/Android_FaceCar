@@ -104,7 +104,7 @@ If you are planning on changing the layout of the GPIOs on the RPi, be sure to c
 
 ```
 # Change these values to your requirements
-# buzzerLow is Allow Access. buzzerHigh is Deny Access.
+# buzzerLow is Deny Access. buzzerHigh is Allow Access.
 buzzerLow = 21
 buzzerHigh = 26
 red = 12
