@@ -2,7 +2,7 @@
 
 Hello and welcome to FaceCar! :heart:
 
-This is an android application that I built while supervising a team of four at my university and the project that I'm super
+This is an Android application that I built while supervising a team of four at my university and the project that I'm super
 proud of. 
 
 This application was built to address the security concerns of vehicle unlocking using keys which can be unsafe. 
@@ -77,6 +77,41 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 <br><br><br><br><br>
 
 
+<h2><strong>Raspberry Pi</strong></h2>
+  
+  <h3><strong>Requirements for Raspberry Pi</strong></h3>
+- x1 Raspberry Pi 3 Model B+
+- x6 Male to Female Jumper Wires (5 Reds, 1 Black)
+- x2 Male to Male Jumper Wires (2 Blacks)
+- x3 LEDs (Red, Yellow & Green)
+- x3 220 Ohms Resistors
+- x2 Buzzers (Access and Denial)
+- tornado_ws_wgpio.py
+<br>
+Setting up Wireless hotspot
+-	https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+Setting up .py file to run on startup
+-	https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
+<br><br><br><br><br>
+
+![](https://github.com/mtamtran/Android_FaceCar/blob/master/app/RPI.png)
+
+A design of the RPi and each components have been setup in the picture above.
+If you are planning on changing the layout of the GPIOs on the RPi, be sure to change bits of the code in tornado_ws_wgpio.py. Numbers represent each pin connected on the RPi.
+
+```
+buzzerLow = 21
+buzzerHigh = 26
+red = 12
+yellow = 16
+green = 20
+```
+
+Once all above have been setup correctly, Turn on (or restart if it is already on) the RPi.
+
+
+
+
 
 
 <h1><strong>Built With</strong></h1>
@@ -93,8 +128,8 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 
 <h1><strong>Acknowledgements</strong></h1>
 
-A huge thank you goes to <a href = "https://github.com/saudet">Samuel Audet</a> for creating OpenCV android libraries containing
-facial detection and recognition algorithms that we were able to tweak and use in our android appliction. 
+A huge thank you goes to <a href = "https://github.com/saudet">Samuel Audet</a> for creating OpenCV Android libraries containing
+facial detection and recognition algorithms that we were able to tweak and use in our Android appliction. 
 
 
 
