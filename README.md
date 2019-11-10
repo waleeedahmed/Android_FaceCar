@@ -65,7 +65,7 @@ signify high confidence in given image label and high values signify low confide
 <br><br><br><br><br><br>
 
 
-![](https://github.com/waleeedahmed/Android_FaceCar/blob/master/app/fc4.gif)
+![](https://github.com/waleeedahmed/Android_FaceCar/blob/master/app/fc4.1.gif)
 <br><br>
 Above shows the failure screen when you try using FaceCar to Scan an unknown face that has not been registered. 
 <br><br><br><br><br><br>
