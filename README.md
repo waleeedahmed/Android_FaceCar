@@ -32,6 +32,11 @@ is passed onto Face Recognizer to for training or recognition purposes. Accordin
 
 <h1><strong>Guided Tour</strong></h1>
 
+Below is a process flowchart for all FaceCar app functions.
+<br><br>
+
+![](https://github.com/waleeedahmed/Android_FaceCar/blob/master/app/Blank_Diagram.jpeg)
+
 This section provides an animated tour of FaceCar and its functionalities. All images are taken in landscape mode since portrait
 mode requires rotating the images which affects face recognitiion capability. 
 <br><br>
