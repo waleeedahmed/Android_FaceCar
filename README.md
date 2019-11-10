@@ -87,7 +87,8 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 - x3 220 Ohms Resistors
 - x2 Buzzers (Access and Denial)
 - tornado_ws_wgpio.py
-<br>
+
+<br><br><br>
 Setting up Wireless hotspot
 -	https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
 Setting up .py file to run on startup
