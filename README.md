@@ -77,9 +77,9 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 <br><br><br>
 
 
-<h2><strong>Raspberry Pi</strong></h2>
+<h1><strong>Raspberry Pi</strong></h1>
   
-  <h3><strong>Requirements for Raspberry Pi</strong></h3>
+  <h2><strong>Requirements for Raspberry Pi</strong></h2>
   
 - x1 Raspberry Pi 3 Model B+
 - x6 Male to Female Jumper Wires (5 Reds, 1 Black)
