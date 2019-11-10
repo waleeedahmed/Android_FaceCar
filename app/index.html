@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Websocket</title>
+    <script type="text/javascript">
+    var ws = null;
+    function init() {
+        if ("WebSocket" in window) {
+            ws = new WebSocket("ws://127.0.0.1:8888/ws/");
+            ws.onopen = function() {
+                console.log("Connection is opened");
+            }
+            ws.onclose = function() {
+                console.log("Connection is closed");
+            }
+            ws.onmessage = function(msg) {
+                document.getElementById("display").innerHTML = msg.data;
+            }    
+        } else {
+            console.log('Your browser doenst support WebSocket!')
+        }
+    }
+
+    function send() {
+        ws.send(document.getElementById("txt").value);
+    }
+    </script>
+</head>
+<body onload="init();">
+    <h2>Try websocket</h2>
+    <input type="text" id="txt">
+    <input type="button" onclick="send()" value="Send">
+    <h3>Response:</h3>
+    <p id="display"></p>
+	<button> <a href="file.py">Test</a></button>
+</body>
+</html>
