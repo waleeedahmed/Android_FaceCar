@@ -11,7 +11,7 @@ Upon successfull authentication, the app sends an unlock signal to a networked R
 access/denial in the form of green/red LEDs respectively. 
 
 FaceCar uses a Machine Learning algorithm called EigenFaces. We have successfully performed these facial recognition tests
-in a variety of environments and different image resolutions before shipping finalizing our product. 
+in a variety of environments and different image resolutions before finalizing our product shipping. 
 
 FaceCar uses Websockets to communicate with RPi. The concept is fit the RPi in an actual vehicle to perform remote unlocking or
 locking. 
