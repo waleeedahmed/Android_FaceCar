@@ -89,15 +89,16 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 - x2 Buzzers (Access and Denial)
 - tornado_ws_wgpio.py
 
-<br><br><br>
 Setting up Wireless hotspot
 -	https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+
 Setting up .py file to run on startup
 -	https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
-<br><br><br><br><br>
+<br><br><br>
 
 ![](https://github.com/mtamtran/Android_FaceCar/blob/master/app/RPI.png)
 
+<br>
 A design of the RPi and each components have been setup in the picture above.
 If you are planning on changing the layout of the GPIOs on the RPi, be sure to change bits of the code in tornado_ws_wgpio.py. Numbers represent each pin connected on the RPi.
 
@@ -109,7 +110,7 @@ yellow = 16
 green = 20
 ```
 
-Once all above have been setup correctly, Turn on (or restart if it is already on) the RPi.
+Once all above have been setup correctly, Turn on (or restart if it is already on) the RPi, connect the Android device to RPi hotspot and use FaceCar.
 
 
 
