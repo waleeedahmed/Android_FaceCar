@@ -80,6 +80,13 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 
 - <a href = "https://opencv.org/">OpenCV Library</a>
 
+<h1><strong>Team Members</strong></h1>
+
+- <a href = "https://github.com/mtamtran">Tam Tran</a>
+- <a href = "https://github.com/ryansinnott1991">Ryan Sinnott</a>
+- Joseph Nguyen
+- Giselle Calinga
+
 
 <h1><strong>Acknowledgements</strong></h1>
 
