@@ -87,7 +87,7 @@ Finally, we clear user data in the face dataset. As shown, face dataset gets emp
 
 - <a href = "https://github.com/mtamtran">Tam Tran</a>
 - <a href = "https://github.com/ryansinnott1991">Ryan Sinnott</a>
-- Joseph Nguyen
+- <a href = "https://www.linkedin.com/in/joseph-nguyen-tran-594a80174/">Joseph Nguyen</a>
 - Giselle Calinga
 
 
