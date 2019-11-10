@@ -74,7 +74,7 @@ Above shows the failure screen when you try using FaceCar to Scan an unknown fac
 ![](https://github.com/waleeedahmed/Android_FaceCar/blob/master/app/fc5.gif)
 <br><br>
 Finally, we clear user data in the face dataset. As shown, face dataset gets emptied.
-<br><br><br><br><br>
+<br><br><br>
 
 
 <h2><strong>Raspberry Pi</strong></h2>
@@ -117,7 +117,7 @@ Once all above have been setup correctly, Turn on (or restart if it is already o
 
 
 
-
+<br><br><br>
 
 <h1><strong>Built With</strong></h1>
 
