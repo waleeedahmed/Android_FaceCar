@@ -103,6 +103,8 @@ A design of the RPi and each components have been setup in the picture above.
 If you are planning on changing the layout of the GPIOs on the RPi, be sure to change bits of the code in tornado_ws_wgpio.py. Numbers represent each pin connected on the RPi.
 
 ```
+# Change these values to your requirements
+# buzzerLow is Allow Access. buzzerHigh is Deny Access.
 buzzerLow = 21
 buzzerHigh = 26
 red = 12
